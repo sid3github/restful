@@ -11,6 +11,7 @@ const StudentSchema = new Schema({
     }
 });
 
+//mongoose.model containing (model-name, schema-name, collection-name)
 const Data = mongoose.model('ths',StudentSchema,'thsdata');
 
 module.exports = Data;

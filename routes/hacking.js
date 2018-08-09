@@ -12,6 +12,7 @@ router.get('/student',function(req,res){
     });
 });
 router.post('/student',function(req,res){
+ //creating new instance / new object of that particular class or variable   
     let user = new Data;
     user.name = req.body.name;
     user.rating = req.body.rating;
